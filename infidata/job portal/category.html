@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+body{
+background-color:#f1eded;}
+	div:hover,a:hover{
+	background-color:dodger-blue;
+	}
+	a:hover{
+	background-color:dodgerblue;
+	}
+	div.category{
+	background-color:#2f85e8;
+	white-space:nowrap;
+	left:70%;
+
+	}
+	div.category a{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:14px;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	}
+h3{
+	display:inline-block;
+	color:white;
+	text-align:left;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	line-height:30px;
+}
+	.logo{
+	display:inline-block;
+	position:relative;
+	top:7px;
+	left:6%;
+	}
+	input[type=submit]{
+	background-color:green;
+	color:white;}
+	table tr{
+	border-spacing:2px;
+	border-color:gray;
+	text-align:left;
+	}
+	fieldset{
+	text-align:left;
+	background-color:white;}
+
+</style>
+<body>
+<br>
+	<div class="category">
+	<div class="logo">
+	<img src="logop.png" width="80px" height="35px"> </div>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="category.html">Add Category</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="companies.html">Companies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="candidates.html">Candidates</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="messages.html">Messages</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="pending.html">Pending Jobs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="password.html">Password</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="logout.html">Logout</a>
+	</div>
+	<br>
+	<h2 style="color:grey;"><b>Admin  Panel</b></h2>
+	<form>
+	<center>
+	<fieldset style="width:800px;height:1000px;">
+	<h3 style="background-color:red;color:white;width:800px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add Category</h3>
+	<b>Enter category:</b><br><br>
+	<input type="text" name="category" placeholder="Enter category">
+	<input type="submit" name="Submit" value="Save">
+	<br><br><br>
+	<h3 style="background-color:red;color:white;width:800px;height:35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Show Category</h3>
+	<br>
+	<table width="800px;" height="40px;">
+	<tr style="background-color:#bbbbbb66;" height="45px;">
+	<th width="200px;">Sl.No</th>
+	<th width="480px;">Name</th>
+	<th width="320px;">Action</th>
+	</tr>
+	
+	</table>
+	</fieldset>
+	</center>
+	</form>
+</body>
+</html>

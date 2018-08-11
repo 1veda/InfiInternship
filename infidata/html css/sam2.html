@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+body{
+background-color:pink;}
+form{
+width:800px;
+height:800px;}
+input[type=submit]{
+width:100px;
+height:25px;
+background:seagreen;
+color:white;}
+</style>
+</head>
+<body>
+	<form>
+	<fieldset style="border:3px solid gray;">
+	<legend>CUSTOMER INFORMATION</legend>
+	<br>
+	name:
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" placeholder="enter your name">
+	<br><br>
+	telephone:
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="numbers" name="telephone" placeholder="123456789">
+	<br><br>
+	email address:
+	<input type="mail" name="email address" placeholder="@gmail.com">
+	<br><br>
+	address:
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="overflow;" type="text" name="address" placeholder="address">
+	<br><br>
+	</fieldset><br><br><br>
+	<fieldset style="border:3px solid gray;">
+	<legend>BOOKS</legend><br>
+	<input type="text">
+	&nbsp;&nbsp;quantity(maximum 5):<input list="quantity"><br>
+	<datalist id="quantity">
+	<option value="1">
+	<option value="2">
+	<option value="3">
+	<option value="4">
+	<option value="5">
+	</fieldset>
+	<br>
+	<input type="submit" value="submit">
+	</form>
+</body>
+</html>

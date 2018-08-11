@@ -1,0 +1,4 @@
+PHP:
+	Its a server side programming language.It is abreviated as hyper text pre processor.
+Using php we can give life to real time web applications.
+Using php we can create, delete, read and update operations of data.

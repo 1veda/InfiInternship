@@ -1,0 +1,90 @@
+JAVASCRIPT:
+
+java script is a programming language to  define responsive web pages.
+Brendan Eich invented a Javascript in 1995.
+Javascript is also called as ECMA script which is nothing but scripting language by the company name called netscape.
+
+
+=>
+Functions:
+	Function is a reserved keyword used to perform set of actions in javascript.
+There 2 types of functions in java script.
+
+1. System functions:
+	They are nothing but pre defined functions in javascript.
+ex: document.write,alert,console.log
+
+2. User defined functions:
+	is nothing but users can write or define their own functions according to their needs.
+
+
+
+Syntax for defining a Functions:
+	function functionname(parameters)
+	{
+		//web
+	}
+*function is a keyword that tells javascript that you are defining a function.
+*functionname is a name of the function.It can be defined with any name as per user needs.
+
+
+
+Steps to define a function name:
+a) It must be one word.
+b) It must contain only letters,numbers or underscore.(a-z,A-Z,0-9,_).
+c) It cannot begin with a number.
+d) It cannot be used as any of the reserved keywords.
+    ex: function,alert,document,javascript etc.
+
+
+=>
+Variable:
+	variables are used to define or declare some values in javascript.
+
+Syntax:
+	var  variableName='value';
+*var is a reserved keyword to define the variable.
+*variableName is name of the variable where user is defining according to their needs.
+
+
+Rules to define a variable:
+* It must be one word.
+* It must consists only of letters,numbers and underscore.
+* It must not begin with a number.
+* It should not contain any of the reserved keyword.
+
+
+
+Local Variables:
+	variables which are declared inside the function and we cannot access local variables outside the function.
+
+Global Variables:
+	global variables are the variables which are declared outside the function and it can be accessible from anywhere.
+If local variables are not defined inside a function then by default global variables can be initialized.
+
+
+
+=>
+This keyword:
+	In a function definition this refers to owner of the function.In our example (c1) this refers to person object.
+The person object owns the fullname method or function.
+
+
+In javascript almost everything is an object:-
+1) Booleans can be object.(if it is defined with a new keyword).
+2) Numbers can be an object if it is defined in new keyword.
+3)Strings can be an object if it is defined with new keyword.
+4) Dates are always objects .
+5) Arrays are always objects.
+6) Functions are always objects.
+7) Objects are always objects.
+
+=>
+DOM:
+With HTML Dom javascript can access and can change all the elements of the html document.
+Javascript can change all the HTML  elements ina a page.
+Javascript can change all the HTML attributes in the page.
+Javascript can change all the css styles in the page.
+Javascript can add new HTML elements and attributes.
+Javascript can create new HTML events in the page.
+For example:- document.getElementById, document.getElementByClassName, document.getElementByTagName.

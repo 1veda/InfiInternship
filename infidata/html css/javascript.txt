@@ -1,0 +1,15 @@
+JAVASCRIPT:
+
+java script is a programming language to  define responsive web pages.
+Brendan Eich invented a Javascript in 1995.
+Javascript is also called as ECMA script which is nothing but scripting language by the company name called netscape.
+
+
+
+Functions:
+	Function is a reserved keyword used to perform set of actions in javascript.
+There 2 types of functions in java script.
+
+1. System functions:
+	They are nothing but pre defined functions in javascript.
+ex: document.write,alert,console.log
